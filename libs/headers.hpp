@@ -6,8 +6,16 @@
 #define ZAD_2_HEADERS_HPP
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
 #include <string>
 #include <vector>
-#include <fstream>
+#include <set>
+#include <memory>
+#include <algorithm>
+
+#include "json.hpp"
+
+using json = nlohmann::json;
 
 #endif //ZAD_2_HEADERS_HPP
