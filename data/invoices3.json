@@ -1,0 +1,26 @@
+[
+  {
+    "number": 1,
+    "price": 100,
+    "payment_title": "Invoice for earphones",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 2,
+    "price": 400,
+    "payment_title": "Invoice for forks",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 3,
+    "price": 400,
+    "payment_title": "Invoice for knives",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 4,
+    "price": 800,
+    "payment_title": "Invoice for textbooks",
+    "payment_status": "unpaid"
+  }
+]

@@ -3,10 +3,10 @@
 int main() {
     try {
         std::set<std::unique_ptr<Company>, CompanyPtrLessFunctor> companies;
-        companies.emplace(std::make_unique<Company>(Company{"FIRMA X", "invoices1.json"}));
-        companies.emplace(std::make_unique<Company>(Company{"FIRMA Y", "invoices2.json"}));
-        companies.emplace(std::make_unique<Company>(Company{"FIRMA W", "invoices3.json"}));
-        companies.emplace(std::make_unique<Company>(Company{"FIRMA Z", "invoices4.json"}));
+        companies.emplace(std::make_unique<Company>(Company{"FIRMA X", "../data/invoices1.json"}));
+        companies.emplace(std::make_unique<Company>(Company{"FIRMA Y", "../data/invoices2.json"}));
+        companies.emplace(std::make_unique<Company>(Company{"FIRMA W", "../data/invoices3.json"}));
+        companies.emplace(std::make_unique<Company>(Company{"FIRMA Z", "../data/invoices4.json"}));
 
         Payments payments{companies};
         payments.pay_invoices();

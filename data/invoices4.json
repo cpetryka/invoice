@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "price": 1000,
+    "payment_title": "Invoice for books",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 2,
+    "price": 2000,
+    "payment_title": "Invoice for smartphones",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 3,
+    "price": 3000,
+    "payment_title": "Invoice for books",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 4,
+    "price": 4000,
+    "payment_title": "Invoice for pencils",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 5,
+    "price": 5000,
+    "payment_title": "Invoice for lamps",
+    "payment_status": "paid"
+  },
+  {
+    "number": 6,
+    "price": 6000,
+    "payment_title": "Invoice for computers",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 7,
+    "price": 7000,
+    "payment_title": "Invoice for pens",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 8,
+    "price": 8000,
+    "payment_title": "Invoice for mugs",
+    "payment_status": "paid"
+  },
+  {
+    "number": 9,
+    "price": 9000,
+    "payment_title": "Invoice for courses",
+    "payment_status": "unpaid"
+  },
+  {
+    "number": 10,
+    "price": 10000,
+    "payment_title": "Invoice for windows",
+    "payment_status": "unpaid"
+  }
+]
